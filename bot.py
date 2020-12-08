@@ -6,7 +6,7 @@ from discord.utils import get
 
 client = discord.Client()
 
-DISCORD_TOKEN = os.getenv("NzU5MDg0ODE1OTM2MTI3MDE2.X24W0w.FkTpoi_fTdNKwR5cp_Y1GkevKTw")
+DISCORD_TOKEN = os.getenv("TOKEN")
 
 
 bot = commands.Bot(command_prefix="#") #PREFIX FOR BOT
@@ -62,4 +62,4 @@ async def sheminde(ctx):
     await ctx.send("iphone 12 pro max miyide da shedebuligaq")
 
 
-bot.run("NzU5MDg0ODE1OTM2MTI3MDE2.X24W0w.FkTpoi_fTdNKwR5cp_Y1GkevKTw")
+bot.run("TOKEN")
